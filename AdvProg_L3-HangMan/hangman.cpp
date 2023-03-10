@@ -30,7 +30,6 @@ vector<string> readWordListFromFile(const string& filePath)
     }
 
         wordList.push_back(word);
-    }
     wordFile.close();
 
     return wordList;
